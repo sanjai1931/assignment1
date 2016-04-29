@@ -1,324 +1,595 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Minoan - Fashion eCommerce Bootstrap Template</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="assets/css/documenter_style.css" rel="stylesheet">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Home || COSSIEPLAY</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-<style>
-html, body {
-	background-color: #FFFFFF;
-	color: #383838;
-}
-h1, h2, h3, h4, h5, h6 {
-	color: #383838;
-}
-section table {
-	background-color: #FFFFFF;
-}
-		::-moz-selection {
-background:#444444;
-color:#DDDDDD;
-}
-::selection {
-	background: #444444;
-	color: #DDDDDD;
-}
-a.brand {
-	background-image: url(assets/images/image_1.png);
-}
-a, a:hover, a:active {
-	color: #0000FF;
-}
-hr {
-	border-top: 1px solid #EBEBEB;
-	border-bottom: 1px solid #FFFFFF;
-}
-div.navbar-inner, .navbar .nav li ul {
-	background: #DDDDDD;
-	color: #222222;
-}
-a.btn-navbar {
-	background: #DDDDDD;
-	color: #222222;
-}
-.navbar .nav li a {
-	color: #222222;
-	text-shadow: 1px 1px 0px #EEEEEE;
-}
-.navbar .nav li a:hover, .navbar .nav li.active a {
-	text-shadow: none;
-}
-div.navbar-inner ul {
-}
-.navbar .nav > li a {
-	color: #444444;
-}
-.navbar .nav > li a:hover, a.btn-navbar:hover {
-	background: #444444;
-	color: #DDDDDD;
-}
-.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active {
-	background-color: #444444;
-	color: #DDDDDD;
-}
-.navbar .nav li ul li a:hover {
-	background: #444444;
-	color: #DDDDDD;
-}
-.navbar .nav li ul li a:active {
-	background: #444444;
-	color: #DDDDDD;
-}
-.btn-primary {
-	background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
-	background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
- background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
-	background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
-	background-image: -o-linear-gradient(top, #0088CC, #0044CC);
-	background-image: linear-gradient(top, #0088CC, #0044CC);
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
-	border-color: #0044CC #0044CC #bfbfbf;
-	color: #FFFFFF;
-}
-.btn-primary:hover,  .btn-primary:active,  .btn-primary.active,  .btn-primary.disabled,  .btn-primary[disabled] {
-	background-color: #0044CC;
-}
-#documenter_copyright {
-	display: block !important;
-	visibility: visible !important;
-}
-#theme_options2 img {
-  border: 1px solid #eee;
-  margin: 10px 0;
-  max-width: 100%;
-  padding: 10px;
-}
-</style>
-</head>
-<body class="documenter-project-Reale Aste-" data-spy="scroll" id="top">
+		
+		
+		<!-- Google Fonts
+		============================================ -->		
+       <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	   
+		<!-- Bootstrap CSS
+		============================================ -->		
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- Font Awesome CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Mean Menu CSS
+		============================================ -->      
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- owl.carousel CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+		<!-- nivo-slider css
+		============================================ --> 
+		<link rel="stylesheet" href="css/nivo-slider.css">
+		<!-- Price slider css
+		============================================ --> 
+		<link rel="stylesheet" href="css/jquery-ui-slider.css">
+		<!-- Simple Lence css
+		============================================ --> 
+		<link rel="stylesheet" type="text/css" href="css/jquery.simpleLens.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.simpleGallery.css">
+		<!-- animate CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- normalize CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/normalize.css">
+		<!-- main CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- style CSS
+		============================================ -->
+        <link rel="stylesheet" href="style.css">
+		<!-- responsive CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/responsive.css">
+		<!-- modernizr JS
+		============================================ -->		
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+		<!-- Header Area -->
+        <div class="header-area">
+			<!-- Header top bar -->
+			<div class="header-top-bar">
+				<div class="container">
+					<div class="header-top-inner">
+						<div class="row">
+							<div class="col-md-8 col-sm-12">
+								<div class="header-top-left">
+									<div class="phone">
+										<label>Call us:</label> (07)4771 1234
+									</div>
+									<div class="e-mail">
+										<label>Email:</label> cossieplay@gmail.com
+									</div>
+									<!-- Header Link Area -->
+									<div class="header-link-area">
+										<div class="header-link">
+											<p class="hidden-xs">Language: </p>
+											<ul>
+												<li>English</li>
+											</ul>
+										</div>
+										<div class="header-link">
+											
+												
+											</ul>
+										</div>
+									</div><!-- End Header Link Area -->
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12">
+								<div class="header-top-right">
+									<!-- Header Social Icon -->
 
-<!-- Documentation Navbar -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- End Header Top bar -->
+			<!-- Header bottom -->
+			<div class="header-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12">
+							<!-- Header Search -->
+							
+						</div>
+						<div class="col-md-4 col-sm-12">
+							<!-- Header logo -->
+							<div class="header-logo">
+								<a href="index.html"><img src="img/cp-a1.png" alt="logo"></a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12"></div>
+					</div>
+				</div>
+			</div><!-- End Header bottom -->
+		</div><!-- End Header Area -->
+        <!-- Main Menu Area -->
+		<div class="main-menu-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- Main Menu -->
+						<div class="main-menu hidden-sm hidden-xs">
+							<nav>
+								<ul class="main-ul">
+									<li class="sub-menu-li"><a href="index.html" class="active">Home</a>
+								    </li>
+									<li class="sub-menu-li"><a href="About.html" class="new-arrivals">About</a>
+									</li><li class="sub-menu-li"><a href="Announcements.html" class="new-arrivals">Announcements</a>
+									</li>
+									<li class="sub-menu-li"><a href="Contact.html" class="new-arrivals">Contact Us</a>
+									</li>
+									<li class="sub-menu-li"><a href="signup.html" class="new-arrivals">Sign Up</a>
+									</li>
+									</ul>
+							</nav>
+						</div><!-- End Main Menu -->
+						
+					</div>
+				</div>
+			</div>
+		</div><!-- End Main Menu Area -->
+		<!-- Main Slider Area -->
+		<div class="main-slider-area">
+			<!-- Main Slider -->
+			<div class="main-slider">
+				<div class="slider">
+					<div id="mainSlider" class="nivoSlider slider-image">
+						<img src="img/party1.png" alt="main slider" title="#htmlcaption1"/>
+						<img src="img/spiderman-a1.png" alt="main slider" title="#htmlcaption2"/>
+					</div>
+					<!-- Slider Caption One -->
+					<div id="htmlcaption1" class="nivo-html-caption slider-caption-1 hidden-xs">
+						<div class="slider-progress"></div>									
+						<div class="slide-text">
+							<div class="middle-text">
+								<div class="cap-title wow zoomInUp" data-wow-duration=".10s" data-wow-delay="0s">
+									<h2>COSSIEPLAY</h2>
+								</div>
+								<div class="cap-dec">
+									<h1 class="wow zoomInUp" data-wow-duration="1.1s" data-wow-delay="0s">COSSIEPLAY</h1>
+									<p class="wow zoomInUp" data-wow-duration="1.3s" data-wow-delay="0s"> Come up fancy , Enjoy With fantacy</p>
+								</div>	
+								<div class="cap-readmore wow zoomInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
+								</div>	
+							</div>	
+						</div>
+					</div>
+					<!-- Slider Caption Two -->
+					<div id="htmlcaption2" class="nivo-html-caption slider-caption-2 hidden-xs">
+						<div class="slider-progress"></div>					
+						<div class="slide-text">
+							<div class="middle-text">
+								<div class="cap-title wow zoomInRight" data-wow-duration=".9s" data-wow-delay="0s">
+									<h2>Welcome...</h2>
+								</div>
+								<div class="cap-dec">
+									<h1 class="cap-dec wow zoomInRight" data-wow-duration="1.1s" data-wow-delay="0s"><font color="#FF4F00">FANCY DESIGNING</font></h1>
+									<p class="cap-dec wow zoomInRight" data-wow-duration="1.3s" data-wow-delay="0s"> <font color="#FF000F">Make Up Fancy! , Party Hard!</p>
+								</div>	
+								<div class="cap-readmore wow zoomInRight" data-wow-duration=".9s" data-wow-delay=".5s">
+								</div>	
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div><!-- End Main Slider -->
+		</div><!-- End Main Slider Area -->		
+		
+		<!-- Product area -->
+		<div class="product-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- Product Top Bar -->
+						<div class="product-top-bar customize-tab-bar">
+							<!-- Tab Button -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#p-bestseller" data-toggle="tab"><i class="fa fa-pencil-square-o"></i>Fancy Costumes</a></li>
+								
+								<li role="presentation"><a href="#p-random" data-toggle="tab"><i class="fa fa-picture-o"></i>More Costumes</a></li>
+							</ul><!-- End Tab Button -->
+						</div><!-- End Product Top Bar -->
+					</div>
+					<div class="col-md-12">
+						<!-- Single Product area -->
+						<div class="single-product-area c-carousel-button">	
+							<!-- Tab Content -->
+							<div class="tab-content">
+								<!-- Tab Pane One -->
+								<div class="tab-pane active" id="p-bestseller">
+									<div class="row">
+										<!-- Single Product Carousel-->
+										<div id="single-product-bestseller" class="owl-carousel">
+											<!-- Start Single Product Column-->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/winterpr.png" alt="product">
+															
+														</a>
+														
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Princess Leia Size : 10</a></h2>
+															<p class="product-price">$100.00</p>
+														</div>
 
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="#">Minoan - Fashion eCommerce Bootstrap Template</a>
-      <div class="nav-collapse">
-        <ul class="nav">       
-          <li><a href="#theme_installation" title="Theme Installation">Template Installation</a></li> 
-		  <li><a href="#reading_setting" title="Page Included in Nimis">Pages</a></li>
-		  <li><a href="#fonts" title="Fonts">Fonts</a></li>
-		  <li><a href="#theme_options" title="Source File (CSS)">Source File (CSS)</a></li>
-		  <li><a href="#theme_options1" title="Source File (JS)">Source File (JS)</a></li> 		  
-		  <li><a href="#theme_options2" title="Customize">Customization</a></li> 		  
-          <li><a href="#thanks" title="Thanks">Thanks</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End of Navbar --> 
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/boromirpr.png" alt="product">
+															
+														</a>
+													
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Peterpan Size: XS</h2>
+															<p class="product-price">$ 49.00</p>
+														</div>
 
-<!-- Main Container Beginning -->
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/spidermanpr.png" alt="product">
+															
+														</a>
 
-<div class="container" id="documenter_content"> 
-  <div id="documenter-cover">
-    <div class="masthead">
-      <h1 style="text-align: center">Minoan - Fashion eCommerce Bootstrap Template</h1>
-      <p style="text-align: center">created: 31/01/2016</p>     
-      <p class="download-info">  <a href="http://bootexperts.com/support" class="btn btn-large">24/7 Support: Send Us a message from our profile</a> </p>
-    </div>
-    <!-- masthead -->    
-    <div id="intro">
-      <p class="highlight hero-unit">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to open a new ticket at our <a href="http://bootexperts.com/support" target="_blank" >support forum</a></p>
-    </div>
-    <!-- intro -->    
-  </div>
-  
-  <section id="theme_installation">
-    <div class="page-header">
-      <h3>Template Installation</h3>
-      <hr class="notop">
-    </div>
-		<ol>
-			<li>
-				<h5>FTP Upload:</h5>
-				<ul>				   
-					<li>Open up your FTP manager and connect to your hosting</li>
-					<li>Browse to required directory (Normally public_html)</li>
-					<li>Upload the files inside <strong>minoan</strong> folder.</li>						
-				</ul>
-			</li>				
-		</ol>
-  </section>
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">SpiderMan Size: 12</h2>
+															<p class="product-price">$49.00</p>
+														</div>
+														<div class="product-bottom-action">
+															
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/prrabbits.png" alt="product">
+														</a>
+													  </div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Spock ( Star Trek) Size : S</h2>
+															<p class="product-price">$1,235.00</p>
+														</div>
+														<div class="product-bottom-action">
+															
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/sewingpr.png" alt="product">
+															
+														</a>
+														
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Elf Size : 16</h2>
+															<p class="product-price">$35.00</p>
+														</div>
+														<div class="product-bottom-action">
+															
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/boromirpr.png" alt="product">
+															
+														</a>
 
-  <section id="reading_setting">
-    <div class="page-header">
-      <h3>Pages</h3>
-      <hr class="notop">
-		<ol>			
-			<ul>			   
-				<li>index.html is for Default Home page</li>
-				<li>index-2.html for Home page version two</li>
-				<li>index-3.html for Home page version three</li>
-				<li>index-4.html for Home page version three</li>
-				<li>index-5.html for Home page version three</li>
-				<li>index-6.html for Home page version three</li>
-				<li>shop.html is for shop page</li>
-				<li>single-list.html is for shop list page</li>
-				<li>product-details.html is for product details page</li>
-				<li>cart.html is for cart page</li>
-				<li>checkout.html is for checkout page</li>
-				<li>wishlist.html is for wishlist page</li>
-				<li>blog.html is for blog page</li>
-				<li>blog-details.html is for blog details page</li>
-				<li>my-account.html is for blog Account/log-in page</li>
-				<li>contact.html is for Contact page</li>
-				<li>thankyou.html is for mail success page</li>
-			</ul>
-		</ol>	  
-    </div>   
-  </section>
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Metroid-Samus Aron Size: L</h2>
+															<p class="product-price">$850.00</p>
+														</div>
+														<div class="product-bottom-action">
 
-  <section id="fonts">
-    <div class="page-header">
-      <h3>Fonts</h3>
-      <hr class="notop">
-    </div>  	
-		<pre>
-&lt;!-- Google Fonts --&gt;
-=================
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											</div><!-- End Single Product Carousel-->
+									</div>
+								</div><!-- End Tab Pane One -->
+								<!-- Tab Pane Two -->
+								<div role="tabpanel" class="tab-pane" id="p-random">
+									<div class="row">
+										<!-- Single Product Carousel-->
+										<div id="single-product-random" class="owl-carousel">
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/alicepr.png" alt="product"></a>
+															</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Elf Size: 16</h2>
+															<p class="product-price">$35.00</p>
+														</div>
+														<div class="product-bottom-action">
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/boromirpr.png" alt="product">
+															
+														</a>
 
-&lt;link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'&gt;
-&lt;href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'&gt;
-		</pre>
-  </section>
-  
-  <section id="theme_options">
-    <div class="page-header">
-      <h3>Source File (CSS)</h3>
-      <hr class="notop">
-    </div>				
-			<pre>
-&lt;!-- css  --&gt;
-=================
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Darth Vader Size : M</h2>
+															<p class="product-price">$149.00</p>
+														</div>
+														<div class="product-bottom-action">
 
-&lt;!-- Bootstrap CSS --&gt;
-&lt;link rel="stylesheet" href="css/bootstrap.min.css"&gt;
-&lt;!-- Font Awesome CSS --&gt;
-&lt;link rel="stylesheet" href="css/font-awesome.min.css"&gt;
-&lt;!-- Mean Menu CSS --&gt;
-&lt;link rel="stylesheet" href="css/meanmenu.min.css"&gt;
-&lt;!-- Owl Carousel CSS --&gt;
-&lt;link rel="stylesheet" href="css/owl.carousel.min.css&gt;
-&lt;link rel="stylesheet" href="css/owl.theme.css"&gt;
-&lt;link rel="stylesheet" href="css/owl.transitions.css"&gt;
-&lt;!-- Nivo Slider CSS --&gt;
-&lt;link rel="stylesheet" href="css/nivo-slider.css"&gt;
-&lt;!-- Price Slider CSS --&gt;
-&lt;link rel="stylesheet" href="css/jquery-ui-slider.css"&gt;
-&lt;!-- Simple Lence CSS --&gt;
-&lt;link rel="stylesheet" href="css/jquery.simpleLens.css"&gt;
-&lt;link rel="stylesheet" href="css/jquery.simpleGallery.css"&gt;
-&lt;!-- Animate CSS --&gt;
-&lt;link rel="stylesheet" href="css/animate.css"&gt;
-&lt;!-- normalize CSS --&gt;
-&lt;link rel="stylesheet" href="css/normalize.css"&gt;
-&lt;!-- Main CSS --&gt;
-&lt;link rel="stylesheet" href="css/main.css"&gt;
-&lt;!-- Style CSS --&gt;
-&lt;link rel="stylesheet" href="style.css"&gt;
-&lt;!-- Responsive CSS --&gt;
-&lt;link rel="stylesheet" href="css/responsive.css"&gt;
-			</pre>					
-  </section>
-  
-  <section id="theme_options1">
-    <div class="page-header">
-      <h3>Source File (JS)</h3>
-      <hr class="notop">
-    </div>
-    			
-			<pre>
-&lt;!-- JS --&gt;
-=================
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/winterpr.png" alt="product">
+														  </a>
+														  </div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Iron Man(With Rocket Robot) Size : M</h2>
+															<p class="product-price">$2,500.00</p>
+														</div>
+														<div class="product-bottom-action">
+															
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/boromirpr.png" alt="product">
 
-&lt;!-- jQuery JS --&gt;
-&lt;script src="js/jquery-1.11.3.min.js"&gt;&lt;/script&gt;
-&lt;!-- Bootstrap JS --&gt;
-&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
-&lt;!-- Nivo Slider JS --&gt;
-&lt;script src="js/jquery.nivo.slider.pack.js"&gt;&lt;/script&gt;
-&lt;!-- Mean Menu JS --&gt;
-&lt;script src="js/jquery.meanmenu.min.js"&gt;&lt;/script&gt;
-&lt;!-- WOW JS --&gt;
-&lt;script src="js/wow.js"&gt;&lt;/script&gt;
-&lt;!-- Price Slider JS --&gt;
-&lt;script src="js/jquery-price-slider.js"&gt;&lt;/script&gt;
-&lt;!-- Simple Lence JS --&gt;
-&lt;script src="js/jquery.simpleGallery.js"&gt;&lt;/script&gt;
-&lt;script src="js/jquery.simpleLens.js"&gt;&lt;/script&gt;
-&lt;!-- Owl Carousel JS --&gt;
-&lt;script src="js/owl.carousel.min.js"&gt;&lt;/script&gt;
-&lt;!-- ScrollUp JS --&gt;
-&lt;script src="js/jquery.scrollUp.min.js"&gt;&lt;/script&gt;
-&lt;!-- Jquery Collapse JS --&gt;
-&lt;script src="js/jquery.collapse.js"&gt;&lt;/script&gt;
-&lt;!-- Plugins JS --&gt;
-&lt;script src="js/plugins.js"&gt;&lt;/script&gt;
-&lt;!-- Main JS --&gt;
-&lt;script src="js/main.js"&gt;&lt;/script&gt;
-			</pre>							
-  </section>
-  
-    <section id="theme_options2">
-    <div class="page-header">
-      <h3>Customization</h3>
-      <hr class="notop">
-    </div>
-        <h4>How to Change Logo</h4>
-        <img src="assets/img/logo.png" alt="">
-        <h4>How to Change Copy Right</h4>
-        <img src="assets/img/copyright.png" alt="">
-    </section>
+														</a>
 
-  <section id="css_stucture" style="padding-top: 70px; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">
-    <div class="page-header" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;"> &nbsp;</div>
-  </section>
-  <section id="thanks">
-    <div class="page-header">
-      <h3>Thanks</h3>
-      <hr class="notop">
-    </div>
-    <h4 id="thanks_span_style"margin_0px_padding_0px_border_0px_outline_0px_font_weight_700_font_style_inherit_font_family_inherit_vertical_align_baseline"once_again_thankyou_for_for_purchasing_one_of_our_theme_span"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Once again thank you for purchasing one of our Templates</span></h4>
-    <h2 style="margin: 0px 0px 18px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 20px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);"> Best Regards</h2>
-    <h3 style="margin: 18px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 26px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);"> BootExpert</h3>
-  </section>
-  <hr />
-  <footer>
-    <p>Copyright BootExpert 2016 made with the <a href="#">Documenter v1.0</a></p>
-  </footer>
-</div>
-<!-- /container --> 
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Bayonetta Size: 10</h2>
+															<p class="product-price">$300.00</p>
+														</div>
+														<div class="product-bottom-action">
 
-<!-- Le javascript
-    ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
-<script>document.createElement('section');var duration='500',easing='swing';</script> 
-<script src="assets/js/jquery.js"></script> 
-<script src="assets/js/jquery.scrollTo.js"></script> 
-<script src="assets/js/jquery.easing.js"></script> 
-<script src="assets/js/scripts.js"></script> 
-<script src="assets/js/google-code-prettify/prettify.js"></script> 
-<script src="assets/js/bootstrap-min.js"></script>
-</body>
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/sewingpr.png" alt="product">
+															
+														</a>
+														
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">Harley Quinn Size: 18</a></h2>
+															<p class="product-price">$125.00</p>
+														</div>
+														<div class="product-bottom-action">
+															
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+											
+											
+											<!-- Start Single Product Column -->
+											<div class="col-md-3">
+												<div class="single-product">
+													<div class="single-product-img">
+														<a href="#">
+															<img class="primary-img" src="img/devilspr.png" alt="product">
+															
+														</a>
+
+													</div>
+													<div class="single-product-content">
+														<div class="product-content-head">
+															<h2 class="product-title">DiabloIII-Demon Hunter Size:10</h2>
+															<p class="product-price">$250.00</p>
+														</div>
+														<div class="product-bottom-action">
+															
+														</div>
+													</div>
+												</div>
+											</div><!-- End Single Product Column -->
+										</div><!-- End Single Product Carousel-->
+									</div>
+								</div><!-- End Tab Pane Two -->
+							</div><!-- End Tab Content -->
+						</div><!-- End Single Product area -->
+					</div>
+				</div>
+			</div>
+		</div><!-- End Product area -->
+		<!-- Footer area -->
+		<div class="footer-area">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<!-- Footer Left -->
+							<div class="footer-left">
+								<!-- Footer Logog -->
+								<div class="footer-logo">
+									<a href="index.html"><img src="img/cp-a1.png" alt="logo"></a>
+								</div>
+								<div class="footer-static-content">
+									<p>We are Encouraging our Younger Generation to Come up in the CossiePlay, To built them So adventures in their life.</p>
+								</div>
+								
+							</div><!-- End Footer Left -->
+						</div>
+						<div class="col-md-8 footer-right-col">
+							<!-- Footer Right -->
+							<div class="footer-right">
+								<div class="footer-newsletter">
+									<form action="#">
+										<h2>Newsletter</h2>
+										<input type="text" title="Sign up for our newsletter" required>
+										<button type="submit">Subscribe</button>
+									</form>
+								</div>
+								
+							</div><!-- End Footer Left -->
+						</div>
+					</div>
+				</div>
+			</div><!-- End Footer Top -->
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="container">
+					<!-- Copyright -->
+					<div class="copyright">
+						<p>Copyright &copy; CossiePlay . All Rights Reserved.</p>
+					</div>
+				</div>
+			</div><!-- End Footer Bottom -->
+		</div><!-- End Footer area -->
+		<!-- QUICKVIEW PRODUCT -->
+		<div id="quickview-wrapper">
+			<!-- Modal -->
+			<div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						</div>
+						<div class="modal-body">
+							<div class="modal-product">
+								<div class="product-images">
+									<div class="main-image images">
+										<img alt="product" src="img/product/sp2.jpg">
+									</div>
+								</div><!-- .product-images -->
+								
+								
+							</div><!-- .modal-product -->
+						</div><!-- .modal-body -->
+					</div><!-- .modal-content -->
+				</div><!-- .modal-dialog -->
+			</div><!-- END Modal -->
+		</div><!-- END QUICKVIEW PRODUCT -->
+				
+		
+		
+		
+		
+		
+		<!-- jquery
+		============================================ -->		
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+		<!-- bootstrap JS
+		============================================ -->		
+        <script src="js/bootstrap.min.js"></script>
+		<!-- nivo slider js
+		============================================ --> 
+		<script src="js/jquery.nivo.slider.pack.js"></script>
+		<!-- Mean Menu js
+		============================================ -->         
+        <script src="js/jquery.meanmenu.min.js"></script>
+		<!-- wow JS
+		============================================ -->		
+        <script src="js/wow.min.js"></script>
+		<!-- price-slider JS
+		============================================ -->		
+        <script src="js/jquery-price-slider.js"></script>
+		<!-- Simple Lence JS
+		============================================ -->
+		<script type="text/javascript" src="js/jquery.simpleGallery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.simpleLens.min.js"></script>	
+		<!-- owl.carousel JS
+		============================================ -->		
+        <script src="js/owl.carousel.min.js"></script>
+		<!-- scrollUp JS
+		============================================ -->		
+        <script src="js/jquery.scrollUp.min.js"></script>
+		<!-- jquery Collapse JS
+		============================================ -->
+        <script src="js/jquery.collapse.js"></script>
+		<!-- plugins JS
+		============================================ -->		
+        <script src="js/plugins.js"></script>
+		<!-- main JS
+		============================================ -->		
+        <script src="js/main.js"></script>
+    </body>
 </html>
